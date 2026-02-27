@@ -9,6 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "homepage": "https://webcraftshiva.github.io/my-app",
+    "start": "react-scripts start",
+    "buidl": "react-scripts build",
+    "predeploy": "npm run  build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
